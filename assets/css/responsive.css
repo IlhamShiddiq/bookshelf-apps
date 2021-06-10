@@ -1,0 +1,16 @@
+@media screen and (min-width: 600px) {
+    main .bookshelfs .bookshelf .books {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 920px) {
+    main {
+        padding: 15px 30px;
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    main .bookshelfs .bookshelf .books {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
